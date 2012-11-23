@@ -17,6 +17,4 @@ Tokenizer.prototype.tokenize = function(str) {
   return this.trim(str.split(' '));
 };
 
-module.exports = function() {
-  return new Tokenizer();
-};
+module.exports = Tokenizer;

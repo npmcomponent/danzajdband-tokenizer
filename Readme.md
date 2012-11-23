@@ -7,7 +7,9 @@
 
 ```js
 
-var tokenizer = require('tokenizer')();
+var Tokenizer = require('tokenizer');
+
+var tokenizer = new Tokenizer();
 
 tokenizer.tokenize('viva la pepa    ');
   //['viva', 'la', 'pepa']
