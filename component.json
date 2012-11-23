@@ -1,0 +1,13 @@
+{
+  "name": "tokenizer",
+  "repo": "danzajdband/tokenizer",
+  "description": "String tokenizer",
+  "version": "0.0.1",
+  "keywords": ["tokenizer", "tokenize"],
+  "dependencies": {
+  },
+  "development": {},
+  "scripts": [
+    "index.js"
+  ]
+}
